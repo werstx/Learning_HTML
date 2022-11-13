@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="" method="get">
+        <!-- Casillas de texto -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <br>
+        <br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos">
+        <br>
+        <br>
+        <!-- Casillas de opción -->
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="hombre" name="sexo" value="Hombre" checked>
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="Mujer">
+        <label for="mujer">Mujer</label>
+        <br>
+        <br>
+        <!-- Casilla de texto -->
+        <label for="correo">Correo:</label>
+        <input type="text" id="correo">
+        <br>
+        <br>
+        <!-- Lista desplegable -->
+        <label for="población">Población:</label>
+        <select name="población" id="población">
+            <option value="" selected></option>
+            <option value="alicante">Alicante</option>
+            <option value="madrid">Madrid</option>
+            <option value="sevilla">Sevilla</option>
+            <option value="valencia">Valencia</option>
+        </select>
+        <br>
+        <br>
+        <!-- Área de texto multilínea -->
+        <p>Descripción:</p>
+        <!-- <label for="descripción">Descripción:</label> -->
+        <textarea name="descripción" rows="8" cols="80"></textarea>
+        <br>
+        <br>
+        <!-- Casilla de verificación marcada por defecto -->
+        <input type="checkbox" id="info" checked>
+        <label for="info">Deseo recibir información sobre novedades y ofertas</label>
+        <br>
+        <br>
+        <!-- Casilla de verificación sin marcar -->
+        <input type="checkbox" id="info">
+        <label for="info">Acepto las condiciones y la normativa</label>
+        <br>
+        <br>
+        <!-- Botón Enviar -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
